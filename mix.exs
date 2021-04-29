@@ -72,7 +72,7 @@ defmodule CommercePlatformApi.MixProject do
       {:phx_gen_auth, "~> 0.6", only: [:dev], runtime: false},
       {:bcrypt_elixir, "~> 2.0"},
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
-      {:faker, "~> 0.16", only: [:dev]},
+      {:faker, "~> 0.16"},
       {:sobelow, "~> 0.8", only: :dev},
       {:ecto_psql_extras, "~> 0.2"},
       {:ex_money, "~> 5.5.1"},
