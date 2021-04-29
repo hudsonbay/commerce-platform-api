@@ -10,6 +10,7 @@ use Mix.Config
 # which you should run after static files are built and
 # before starting your production server.
 config :commerce_platform_api, CommercePlatformApiWeb.Endpoint,
+  http: [:inet6, port: System.get_env("PORT") || 4000],
   load_from_system_env: true,
   url: [scheme: "https", host: "commerce-platform-api.herokuapp.com", port: 443],
   force_ssl: [rewrite_on: [:x_forwarded_proto]],
