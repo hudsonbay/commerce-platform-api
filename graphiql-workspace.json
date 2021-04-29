@@ -1,0 +1,52 @@
+{
+  "key": "graphiql",
+  "lastId": 1,
+  "tabIds": [
+    "tab1"
+  ],
+  "closedTabs": [],
+  "defaultUrl": "http://localhost:4000/graphiql",
+  "defaultWebsocketUrl": "",
+  "defaultQuery": "",
+  "defaultVariables": "",
+  "defaultProxy": false,
+  "defaultHeaders": [],
+  "usedUrls": [
+    "http://localhost:4000/api/graphiql",
+    "http://localhost:4000/graphiql/",
+    "http://localhost:4000/graphiql"
+  ],
+  "recentHeaders": [],
+  "maxTabHistory": 20,
+  "maxUrlHistory": 20,
+  "maxHistory": 20,
+  "savedQueries": [],
+  "activeId": "tab1",
+  "tabs": [
+    {
+      "id": "tab1",
+      "name": "Register user",
+      "url": "http://localhost:4000/graphiql",
+      "websocketUrl": "",
+      "proxy": false,
+      "headers": [],
+      "collapsed": false,
+      "maxHistory": 20,
+      "history": [
+        {
+          "query": "mutation {\n  createUser(email: \"angus@gmail.com\", name: \"Angus Young\", password: \"123qweasdzxc\") {\n    id\n    email\n    name\n  }\n}",
+          "variables": null
+        },
+        {
+          "query": "",
+          "variables": null
+        }
+      ],
+      "graphiql:query": "mutation {\n  createUser(email: \"angus@gmail.com\", name: \"Angus Young\", password: \"123qweasdzxc\") {\n    id\n    email\n    name\n  }\n}",
+      "graphiql:editorFlex": 1,
+      "graphiql:docExplorerWidth": 350,
+      "graphiql:variableEditorHeight": 200,
+      "graphiql:queries": "{\"queries\":[{\"query\":\"mutation {\\n  createUser(email: \\\"angus@gmail.com\\\", name: \\\"Angus Young\\\", password: \\\"123qweasdzxc\\\") {\\n    id\\n    email\\n    name\\n  }\\n}\"}]}"
+    }
+  ]
+}
